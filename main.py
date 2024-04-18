@@ -20,7 +20,7 @@ def main():
 
     args = parser.parse_args() #all input arguments are parsed into args variable
 
-    drivernet_starttime = time.time()
+    lbsa_starttime = time.time()
     #get input data
     maf_file_name = args.network
     dataset_name = args.dataset_name
@@ -50,8 +50,8 @@ def main():
     print "Output file -- ranked_driver_genes_" + dataset_name + ".txt -- created.\n Check Output Folder"
     print "Cheers!!!"
 
-    drivernet_endtime = time.time()
-    total_algorithm_runtime = drivernet_endtime - drivernet_starttime
+    lbsa_endtime = time.time()
+    total_algorithm_runtime = lbsa_endtime - lbsa_starttime
     total_algorithm_runtime_mins = total_algorithm_runtime / 60
     print("---Total program runtime ----%s minutes ----" % (total_algorithm_runtime_mins))
 
