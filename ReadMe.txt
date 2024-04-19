@@ -15,5 +15,10 @@
 
 
 
+********************************************************************************************
+In order to use the application, code, and algorithm, please cite(reference) the study as indicated below:
+
+"Ngobesing L. A., Cingiz M. O., and Atay Y. (2024), LBSA-DRIVER: A Novel Approach for Identifying Cancer Driver Genes Using List-Based Simulated Annealing, Current Bioinformatics (on review)"
+
 
 
